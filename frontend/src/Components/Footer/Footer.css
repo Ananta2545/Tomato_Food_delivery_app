@@ -48,3 +48,50 @@
 .footer-copyright{
     font-size: 20px;
 }
+
+@media (max-width:750px){
+    .footer{
+        width: 122.5%;
+    }
+    .footer-content{
+        display: flex;
+        flex-direction: column;
+        gap: 35px;
+    }
+    .footer-content-left{
+        margin-left: -5px;
+    }
+    .footer-content-left>img{
+        width: 150%;
+        margin-left: 140px;
+    }
+    .footer-content-left>p{
+        margin-left: 59px;
+        width: 445%;
+        font-size: 20px;
+    }
+    .footer-social-icons{
+        margin-left: 120px;
+    }
+    .footer-copyright{
+        text-align: center;
+    }
+
+    .footer-content-center{
+        margin-left: 100px;
+    }
+    .footer-content-center ul{
+        width: 295%;
+        font-size: 20px;
+    }
+
+    .footer-content-right{
+        margin-left: 100px;
+    }
+    .footer-content-right>h2{
+        width: 270%;
+    }
+    .footer-content-right ul li{
+        font-size: 20px;
+    }
+}

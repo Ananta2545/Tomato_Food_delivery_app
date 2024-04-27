@@ -29,11 +29,12 @@
 }
 
 .explore-menu-list-item>img{
-    width: 7.5vw;
+    min-width: 7.5vw;
     min-height: 80px;
     cursor: pointer;
-    border-radius: 50px;
+    border-radius: 130px;
     transition: 0.2s;
+    /* height: 80px; */
 }
 
 .explore-menu-list-item>p{
@@ -52,5 +53,29 @@
 
 .explore-menu-list-item .active{
     border: 4px solid tomato;
-    padding: 2px;
+    padding: 4px;
 }
+
+@media (min-width: 500px) and (max-width: 1050px){
+    .explore-menu-text{
+        max-width: 100%;
+        font-size: 14px;
+    }
+}
+
+@media (min-width:0px) and (max-width: 500px){
+    .explore-menu{
+        min-width: 114%;
+    }
+    .explore-menu-list-item>img{
+        height: 20px;
+    }
+    .explore-menu-text{
+        max-width: 100%;
+        font-size: 12px;
+    }
+    .explore-menu{
+        margin-left: 13px;
+    }
+}
+

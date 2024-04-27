@@ -15,3 +15,22 @@
     row-gap: 50px;
 }
 
+@media (min-width: 0px) and (max-width: 400px){
+    .food-display{
+        margin-left: 13px;
+        width: 125%;
+    }
+    .food-display-list{
+        margin-top: -43px;
+    }
+}
+
+@media (min-width: 401px) and (max-width: 700px){
+    .food-display{
+        margin-left: 20px;
+        width: 100%;
+    }
+    .food-display-list{
+        margin-top: -65px;
+    }
+}

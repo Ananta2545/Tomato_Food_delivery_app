@@ -29,3 +29,17 @@
 .Span{
     color: tomato;
 }
+
+@media (min-width: 0px) and (max-width: 500px){
+    .appdownload{
+        margin-left: 42px;
+        width: 100%;
+    }
+}
+
+@media (min-width: 501px) and (max-width: 800px){
+    .appdownload{
+        margin-left: 35px;
+        width: 100%;
+    }
+}

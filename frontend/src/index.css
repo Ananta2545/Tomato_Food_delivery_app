@@ -29,3 +29,23 @@ a{
     opacity: 1;
   }
 }
+
+@media (max-width: 790px){
+  body{
+    /* object-fit: contain; */
+    /* overflow: hidden; */
+    /* position: absolute;
+    left: 35px; */
+    /* width: 100%; */
+  }
+}
+@media (max-width: 425px){
+  body{
+    /* object-fit: contain; */
+    /* overflow: hidden; */
+    /* position: absolute;
+    left: 45px; */
+    /* margin-left: 25px; */
+    width: 100%;
+  }
+}
