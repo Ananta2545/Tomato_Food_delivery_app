@@ -2,10 +2,12 @@
 
 Welcome to **Tomato** - your ultimate food delivery solution! This app is currently under development and focuses on providing a seamless and delightful user experience for ordering food online. Built using React and JavaScript, Tomato will soon evolve to incorporate backend functionalities, making it a full-fledged food delivery platform.
 
-## *Screenshot*:
-![YouTube Clone App Screenshot](Images/image2.png)
+## **📸 Screenshots**:
+![Food Delivery Website](frontend/public/image1.1.png)
 
-![YouTube Clone App Screenshot](Images/image1.png)
+![Food Delivery Website](frontend/public/image1.2.png)
+
+![Food Delivery Website](frontend/public/image1.3.png)
 
 ## 🌟 Features
 
@@ -63,5 +65,11 @@ Ensure you have the following installed:
   ```bash
   npm run build
   ```   
+## **🌐 Connect with Us**:
+**For any inquiries or suggestions, feel free to reach out to us at**:
+- Email: chatterjeeanata091@gmail.com
+- github: https://github.com/Ananta2545
 
+**Thank you for checking out Tomato! We hope you have a great experience using our app. Stay tuned for more updates and exciting features! 🍅🚀**
+   
 
